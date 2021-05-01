@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;600&display=swap");
+
+@font-face {
+  font-family: "greek-ones";
+  src: url("assets/greek.ttf");
+}
+
+body {
+  background-color: #f1f1f1;
+}
+a {
+  text-decoration: none !important;
+  color: black;
+  &:hover {
+    color: black;
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.header {
+  position: fixed;
+  width: 100vw;
+
+  .logo {
+    cursor: pointer;
+    margin: 0 12vw;
+    img {
+      height: 50px;
+      border-radius: 100%;
+      width: auto;
+    }
+  }
+}
+
+.header-container {
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.menu-items {
+  margin: 1vh 2vw;
+  /* font-family: 'Cairo', sans-serif; */
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mainCard {
+  width: 80vw;
+  height: 85vh;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.page-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+mark {
+  background-color: #fee530;
+  font-family: courier;
+  font-size: 18px;
+  align-self: center;
+  color: rgb(54, 54, 54);
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+  .fa {
+    color: #fee530;
+    font-size: 30px;
+  }
+}
+.clamp-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 45px;
+}
+
+.rc-links.active {
+  text-decoration: line-through !important;
+  text-decoration-color: #fee530 !important;
+}

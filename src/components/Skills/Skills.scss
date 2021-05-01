@@ -1,0 +1,70 @@
+
+
+
+.skills-container{
+    .main-content {
+        top: -70vh;
+        left: 2vw;
+      }
+      
+      .coll {
+        left: 52.5vw;
+        top: 10vh;
+      }
+      
+      .border-yellow {
+        border: 5px solid #fee530;
+      }
+      
+      .project-img {
+        max-width: 200px;
+        border-bottom: 2.5px solid #fee530;
+      }
+      
+      .project-card-body {
+        max-width: 200px;
+        .title {
+          border-bottom: 2.5px solid #fee530;
+        }
+        .desc {
+          line-height: 1.1;
+          word-wrap: break-word;
+        }
+      }
+      
+      .card-con {
+        width: 75vw;
+      }
+      
+      .yellow-overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #fee530;
+        top: 0;
+        left: 0;
+        opacity: 0.6;
+        transition: all 0.5s;
+        &:hover {
+          opacity: 0;
+        }
+        .pending {
+          left: 85%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      
+      .skills {
+        font-size: 90px;
+        transform: rotate(-90deg);
+        width: 90px;
+        // color: #fee530;
+      }
+      
+      .s135f {
+        bottom: -660px;
+        font-weight: bold;
+        left: -20px;
+        z-index: 999;
+      }
+}

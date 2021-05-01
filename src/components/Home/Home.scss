@@ -1,0 +1,32 @@
+.mainCard {
+  width: 80vw;
+  height: 85vh;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Barlow Semi Condensed", sans-serif;
+.it{
+    letter-spacing: 0.2vw;
+    transform: rotate(-90deg);
+    top: 25%;
+    left: -11%;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+}
+}
+
+.mainCardContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-txt{
+    top: 35%;
+    left: 70%;
+    font-weight: 600;
+    font-size: 3.25vw;
+    width: 40vw;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
