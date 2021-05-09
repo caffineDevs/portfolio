@@ -23,7 +23,7 @@ function Projects() {
                   <div className="m-autos" key={`proj_${index}`}>
                     <a
                       href={project.url}
-                      target={project.url ? "_blank" : null}
+                      target="_blank"
                     >
                       <div className="project-card border-yellow cursor-pointer m-4">
                         <div className="position-relative">
