@@ -41,7 +41,7 @@ export const projects = [
     name: "Code Memoirs",
     desc:
       "Store your code snippets all at one place.",
-    url: "",
+    url: "https://caffinedevs.github.io/code-memoirs-rc-frontend/",
     completionStatus: true,
     thumbnail: "",
   },
@@ -51,13 +51,5 @@ export const projects = [
     url: "https://caffinedevs.github.io/lofi-rc-frontend/",
     completionStatus: true,
     thumbnail: "Lofi Station",
-  },
-  {
-    name: "Resume Builder",
-    desc:
-      "Create your own resume by choosing from a set of beautifuuly chosen templates.",
-    url: "",
-    completionStatus: false,
-    thumbnail: "",
   },
 ];
